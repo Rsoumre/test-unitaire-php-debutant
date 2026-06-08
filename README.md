@@ -13,10 +13,14 @@ Installation de PHPUnit en utilisant Composer avec la commande `composer require
 ![Installation de PHPUnit avec Composer](<images/Capture d’écran du 2026-06-08 13-40-20.png>)
 
 ## Lancement des tests
-
 Lancement des tests avec la commande `./vendor/bin/phpunit tests/MathTest.php`. Le `.` indique que le test a passé avec succès.
 ![Lancement des tests avec PHPUnit]
 
 ![Lancement des tests avec PHPUnit]
 ![alt text](<images/Capture d’écran du 2026-06-08 14-45-25.png>)
 
+## Test en erreur volontaire
+ Modification volontaire de la méthode `addition` pour faire échouer le test. Le `F` indique un échec — PHPUnit attendait `5` mais a obtenu `7`.
+
+![Test en erreur volontaire]
+![alt text](<images/Capture d’écran du 2026-06-08 15-38-18.png>)
