@@ -1,0 +1,17 @@
+{
+    "name": "harouna/test-unitaire-php-debutant",
+    "autoload": {
+        "psr-4": {
+            "Harouna\\TestUnitairePhpDebutant\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rsoumre",
+            "email": "harounasoumare547@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13.2"
+    }
+}
